@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif; 
+    box-sizing:border-box;
+}
+body{
+    background: #e4e3e3;
+    padding:20px;
+}
+.first-container{
+    background-color: #fff;
+    width:35%;
+    padding:15px;
+    border-radius:10px;
+    display: inline-block;
+}
+.first-container img{
+    width:100%;
+    height:300px;
+    border-radius: 10px;
+}
+figcaption{
+    margin-top:10px;
+}
+figcaption h3{
+    font-size:1.5rem;
+    color: #4F4F4F;
+    font-weight:600;
+}
+figcaption p{
+    font-size:1.125rem;
+    color: #828282;
+    margin-top:5px;
+}
+.contact{
+    margin:20px 0;
+}
+.mycontact{
+    display:flex;
+    align-items: center;
+}
+.mycontact i{
+    color:#4F4F4F;
+    height:100%;
+    margin-right:20px;
+}
+.mycontact p{
+    font-size:1.125rem;
+    color: #4F4F4F;
+}
+.about p{
+    font-size:1.125rem;
+    color:#828282;
+    margin-bottom:20px;
+}
+/* ========================================================SECOND CONTAINER===================================================== */
+.big-second-container{
+    float:right;
+    width:63%;
+}
+.left-side{
+    width:47%;
+    background-color: #fff;
+    padding:15px;
+    margin-right:10px;
+    border-radius:10px;
+    display:inline-block;
+}
+.big-second-container h2{
+    font-size:1.125rem;
+    color:#4F4F4F;
+    font-weight:700;
+}
+.right-side{
+    background-color: #fff;
+    width:50%;
+    float:right;
+    border-radius:10px;
+    padding:15px; 
+}
+.skills{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills p{
+     font-size:1rem;
+     color:#4F4F4F;
+}
+/* ===============================LEVEL OF SKILLS==================== */
+.level{
+    width:50%;
+    height:5px;
+    background-color: #C4C4C4;
+    position:relative;
+    border-radius:10px;
+}
+.level span{
+    position:absolute;
+    background-color: #2F80ED;
+    height:100%;
+    left:0;
+    border-radius:10px;
+}
+.React-level span{
+     width:70%;
+}
+.Js-level span{
+    width:80%;
+}
+.CSS-level span{
+    width:90%;
+}
+.Vue-level span{
+    width:60%;
+}
+.Redux-level span{
+    width:85%;
+}
+.React-native-level span{
+    width:90%;
+}
+.Figma-level span{
+    width:70%;
+}
+.Photoshop-level span{
+    width:85%;
+}
+/* ===================================================================THIRD CONTAINER============================================== */
+.third-container{
+    width:35%;
+    background-color: #fff;
+    border-radius:10px;
+    margin-top:30px;
+    padding:15px;
+    display:inline-block;
+}
+.first-role h3,
+.second-role h3,
+.third-role h3{
+    font-size:1.5rem;
+    color:#4F4F4F;
+    margin-bottom:30px;
+}
+.img-role{
+    display:flex;
+    justify-content: space-between;
+}
+.second-role,
+.third-role{
+    margin-top:40px;
+}
+.third-role{
+    margin-bottom:20px;
+}
+.img-role img{
+    width:20%;
+    height:80px;
+    margin-top:1.6rem;
+}
+.role h5{
+    font-size:0.875rem;
+    color:#828282;
+}
+.role h3{
+    font-size:1rem;
+    color:#333333;
+    font-weight:600;
+    margin-top:10px;
+}
+.role p{
+    font-size:1rem;
+    color:#828282;
+}
+/* ==============================================================FOURTH CONTAINER================================================= */
+.fourth-container{
+    width:63%;
+    border-radius:10px;
+    margin-top:-250px;
+    float:right;
+}
+.heading{
+    background-color: #fff;
+    border-radius:10px;
+}
+.heading h3{
+    padding:10px;
+    font-size:1.125ren;
+    color:#4F4F4F;
+}
+.projects{
+    background-color: #fff;
+    margin-top:25px;
+    border-radius: 10px;
+    width:100%;
+    display:flex;
+    padding:15px;
+    justify-content: space-between;
+}
+.project-one{
+    margin-top:10px;
+}
+.projects img{
+    width:30%;
+    height:auto;
+    border-radius:10px;
+}
+.project-para{
+    width:60%;
+}
+.projects ul{
+    display:flex;
+}
+.projects li{
+    font-size:1rem;
+    color:#4F4F4F;
+    list-style-type: none;
+    padding:0 10px;
+}
+.projects li:first-child{
+    padding-left:0;
+}
+.project-para h3{
+    font-size:1.5rem;
+    color:#333333;
+    margin:1.2rem 0;
+}
+.project-para p{
+    font-size:1rem;
+    color:#828282;
+    margin-bottom:2.2rem;
+}
+/* =====================My buttons=========================== */
+.buttons button{
+    text-decoration: none;
+    color:#2F80ED;
+    font-size:1.125rem;
+    padding:10px 35px;
+    border:1px solid #2F80ED;
+    border-radius: 12px;
+    background-color: transparent;
+    transition:all .6s ease-in-out;
+}
+.buttons button:hover{
+    color:#fff;
+    background-color: #2F80ED;
+}
+/* ==============================================================FIFTH CONTAINER=============================================== */
+.fifth-container{
+    background-color: #fff;
+    width:35%;
+    border-radius:10px;
+    margin-top:30px;
+    padding:15px;
+    display:inline-block;
+}
+.fifth-container h2{
+    font-size:1.5rem;
+    color:#4F4F4F;
+}
+.fifth-container img{
+    width:100%;
+    height:300px;
+    border-radius:10px;
+    margin:30px 0;
+}
+.hobbies-img h2{
+    font-size:1.125rem;
+    color:#333333;
+    margin-bottom:20px;
+}
+.hobbies-img p{
+    font-size:1rem;
+    color:#828282;
+}
+/* ===========================================================SIXTH CONTAINER===================================================== */
+.sixth-container{
+    width:63%;
+    float:right;
+    margin-top:0px;
+}
+.sixth-content{
+    margin-top:20px;
+    border-radius:10px;
+    padding:15px;
+    padding-right:0;
+    background-color: #fff;
+}
+.sixth-content h5{
+    color:#E0E0E0;
+    font-size:1rem;
+}
+.sixth-img img{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:320px;
+}
+.text h4{
+    font-size:1.5rem;
+    color:#333333;
+    margin:25px 0;
+}
+.text p{
+    font-size:1rem;
+    color:#828282;
+}
+.text a{
+    color:#2F80ED;
+    text-decoration: none;
+}
+.sixth-flex{
+    display:flex;
+    justify-content: space-between;
+}
+.developer{
+    text-align: center;
+    margin:30px;
+}
+.developer p{
+    color:#828282;
+    font-size:1rem;
+}
+.developer a{
+    color:#2F80ED;
+    text-decoration: none;
+}
+@media screen and (max-width:1000px) {
+    .sixth-container{
+        margin-top:-1320px;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1220px) {
+.sixth-container{
+    margin-top:25px;
+}
+}
